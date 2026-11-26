@@ -96,5 +96,3 @@ steer es proteins.fa --out my_es                                          # reco
 The analysis code for the paper will be added to this repository.
 
 ## Citation
-
-[Manuscript citation.] Please also cite ESM-2: Lin et al. (2023) Science 379:1123–1130.
