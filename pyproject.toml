@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "steer"
+version = "1.0.0"
+description = "Protein embedding similarity (ES) from ESM-2 and its combination with ERC (STEER)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+dependencies = ["numpy", "pandas", "scipy", "matplotlib", "torch", "transformers"]
+
+[project.scripts]
+steer = "steer.cli:main"
+
+[tool.setuptools]
+packages = ["steer"]

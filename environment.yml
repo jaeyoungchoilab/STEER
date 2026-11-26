@@ -1,0 +1,14 @@
+name: steer
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - pytorch               # install the CUDA build that matches your GPU for whole proteomes
+  - transformers
+  - pip
+  - pip:
+      - .                 # installs the steer command from this repository
